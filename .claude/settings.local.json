@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p \"C:\\\\Users\\\\nikla\\\\Dropbox\\\\niklas-40\\\\.claude\" 2>/dev/null; echo done)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(where node.exe)",
+      "Read(//usr/bin/**)",
+      "Read(//usr/local/bin/**)"
+    ]
+  }
+}

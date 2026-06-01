@@ -190,15 +190,6 @@
       margin-top: 2.8rem;
     }
 
-    .event-card-img {
-      width: calc(100% + 4rem);
-      margin: -2rem -2rem 1.5rem;
-      height: 180px;
-      background-size: cover;
-      background-position: center;
-      border-radius: var(--radius) var(--radius) 0 0;
-    }
-
     .event-card {
       background: rgba(255,255,255,0.06);
       border: 1px solid rgba(255,255,255,0.1);
@@ -535,7 +526,7 @@
     <div class="hero-bg" id="heroBg"></div>
     <div class="hero-overlay"></div>
     <div class="hero-content">
-      <div class="hero-badge">🎂 40 år · 8. september 2026</div>
+      <div class="hero-badge">🎂 40 år · September 2026</div>
       <h1>Niklas fyller <em>40</em> – og det skal feires!</h1>
       <p class="hero-sub">
         Du er invitert til én fest, to fester, eller ingenting.<br>
@@ -566,7 +557,6 @@
 
         <!-- Event 1 -->
         <div class="event-card">
-          <div class="event-card-img" style="background-image:url('stavanger.jpg')"></div>
           <div class="event-number">1</div>
           <div class="event-city">Stavanger 🛢️</div>
           <div class="event-meta">
@@ -590,7 +580,6 @@
 
         <!-- Event 2 -->
         <div class="event-card">
-          <div class="event-card-img" style="background-image:url('storengveien.jpg')"></div>
           <div class="event-number">2</div>
           <div class="event-city">Oslo 🏙️</div>
           <div class="event-meta">
@@ -604,7 +593,7 @@
             </div>
             <div class="event-meta-row">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              <span>Storengveien 9A, 1359 Jar</span>
+              <span>Storengveien 9A, Oslo</span>
             </div>
           </div>
           <p class="event-desc">
@@ -693,32 +682,6 @@
 
         <div class="comment-card">
           <div class="comment-header">
-            <div class="avatar" style="background: #7b5ea7;">M</div>
-            <div class="comment-meta">
-              <span class="comment-name">Mamma</span>
-              <span class="comment-party">🏙️ Oslo</span>
-            </div>
-          </div>
-          <p class="comment-text">
-            Oppfør dere ordentlig, alle sammen. Det gjelder deg også, Niklas.
-          </p>
-        </div>
-
-        <div class="comment-card">
-          <div class="comment-header">
-            <div class="avatar" style="background: #8b3a3a;">T</div>
-            <div class="comment-meta">
-              <span class="comment-name">Tore Tang</span>
-              <span class="comment-party">🛢️ Stavanger</span>
-            </div>
-          </div>
-          <p class="comment-text">
-            Gralla! Du e' maen!
-          </p>
-        </div>
-
-        <div class="comment-card">
-          <div class="comment-header">
             <div class="avatar" style="background: #1a6b4a;">B</div>
             <div class="comment-meta">
               <span class="comment-name">Bjørnar Moxnes</span>
@@ -739,7 +702,7 @@
             </div>
           </div>
           <p class="comment-text">
-            Jeg fikser litt moropulver/partysnacks. 🎉
+            Kan jeg ta med litt snacks? 🍿 Spør for en venn 🌿
           </p>
         </div>
 
